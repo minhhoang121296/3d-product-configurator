@@ -205,7 +205,7 @@ function App() {
           className="holder"
           onClick={() => {
             setLinkOpened(true);
-            window.open("https://github.com/Madewill/3d-product-configurator.git");
+            window.open("https://infinilab.asia/");
           }}
         >
           {linkOpened ? (
@@ -213,7 +213,7 @@ function App() {
           ) : (
             <AiOutlineStar color="#a8a8a8" size={24} />
           )}
-          <span>Madewill/3d-product-configurator</span>
+          <span>Infinilab Asia</span>
         </div>
       </div>
     </>
